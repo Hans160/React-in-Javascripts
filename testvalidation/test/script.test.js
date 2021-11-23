@@ -5,14 +5,11 @@ const { window } = new JSDOM(
   readFileSync(__dirname + '/../src/index.html').toString()
 );
 const script = readFileSync(__dirname + '/../src/script.js').toString();
-const validator = readFileSync(__dirname + '/../src/validator.js').toString();
 const { document, KeyboardEvent, Element } = window;
 global.Element = Element;
 require('geteventlisteners');
 
-eval(validator); // 스크립트 실행
 eval(script); // 스크립트 실행
-
 const separator = () =>
   console.log('\n-----------------------------------------');
 
