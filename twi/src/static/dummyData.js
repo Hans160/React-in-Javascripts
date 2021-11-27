@@ -33,6 +33,18 @@ const dummyTweets = [
     createdAt: getParsedDate('2019-02-25T16:17:47.000Z'),
     updatedAt: getParsedDate('2019-02-25T16:17:47.000Z'),
   },
+  {
+    id: 3,
+    username: 'leedesign',
+    picture: `https://randomuser.me/api/portraits/women/${getRandomNumber(
+      1,
+      98
+    )}.jpg`,
+    content:
+      '모든 국민은 고문을 받지 아니하며, 형사상 자기에게 불리한 진술을 강요당하지 아니한다. 모든 국민은 양심의 자유를 가진다. 모든 국민은 사생활의 비밀과 자유를 침해받지 아니한다. 연소자의 근로는 특별한 보호를 받는다. 형사피고인이 스스로 변호인을 구할 수 없을 때에는 법률이 정하는 바에 의하여 국가가 변호인을 붙인다.',
+    createdAt: getParsedDate('2019-02-26T16:17:47.000Z'),
+    updatedAt: getParsedDate('2019-02-26T16:17:47.000Z'),
+  },
 ];
 
 export { dummyTweets };
