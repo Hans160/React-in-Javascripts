@@ -45,6 +45,18 @@ const dummyTweets = [
     createdAt: getParsedDate('2019-02-26T16:17:47.000Z'),
     updatedAt: getParsedDate('2019-02-26T16:17:47.000Z'),
   },
+  {
+    id: 4,
+    username: 'songfront',
+    picture: `https://randomuser.me/api/portraits/men/${getRandomNumber(
+      1,
+      98
+    )}.jpg`,
+    content:
+      '형사피고인은 상당한 이유가 없는 한 지체없이 공개재판을 받을 권리를 가진다. 공무원은 국민전체에 대한 봉사자이며, 국민에 대하여 책임을 진다. 모든 국민은 고문을 받지 아니하며, 형사상 자기에게 불리한 진술을 강요당하지 아니한다. 누구든지 체포 또는 구속을 당한 때에는 적부의 심사를 법원에 청구할 권리를 가진다. 대한민국의 경제질서는 개인과 기업의 경제상의 자유와 창의를 존중함을 기본으로 한다.',
+    createdAt: getParsedDate('2019-02-27T16:17:47.000Z'),
+    updatedAt: getParsedDate('2019-02-27T16:17:47.000Z'),
+  },
 ];
 
 export { dummyTweets };
