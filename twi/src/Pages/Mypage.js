@@ -24,6 +24,7 @@ const MyPage = () => {
           </div>
         </div>
       </div>
+      <ul className="tweets__mypage"></ul>
       <Footer />
     </section>
   );
