@@ -20,7 +20,7 @@ const MyPage = () => {
             <p className="myInfo__detailName">
               {filteredTweets[0].username} Profile
             </p>
-            <p>28 팔로워 100 팔로잉</p>
+            <p>280 팔로워 1000 팔로잉</p>
           </div>
         </div>
       </div>
