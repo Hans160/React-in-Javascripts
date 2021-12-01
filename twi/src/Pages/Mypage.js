@@ -24,7 +24,24 @@ const MyPage = () => {
           </div>
         </div>
       </div>
-      <ul className="tweets__mypage"></ul>
+      <ul className="tweets__mypage">
+        {filteredTweets.map((tweet) => {
+          return (
+            <li className="tweet" id={tweet.id} key={tweet.id}>
+              <div className="tweet__profile">
+                <img src={tweet.picture} />
+              </div>
+              <div className="tweet__content">
+                <div className="tweet__userInfo">
+                  <span className="tweet__username">{tweet.username}</span>
+                  <span className="tweet__createdAt">{tweet.createdAt}</span>
+                </div>
+                <div className="tweet__message">{tweet.content}</div>
+              </div>
+            </li>
+          );
+        })}
+      </ul>
       <Footer />
     </section>
   );
