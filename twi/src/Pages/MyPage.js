@@ -5,7 +5,7 @@ import Footer from '../Footer';
 
 const MyPage = () => {
   const filteredTweets = dummyTweets.filter(
-    (data) => data.username === 'songfront'
+    (data) => data.username === 'kimcoding'
   );
   console.log('더미 파라미터');
 
